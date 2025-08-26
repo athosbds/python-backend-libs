@@ -1,0 +1,48 @@
+# ===== Bibliotecas Básicas do Flask =====
+Flask                   # Framework web principal
+Flask-SQLAlchemy         # ORM para integração com bancos de dados
+Flask-Migrate            # Controle de migrações de banco de dados
+Flask-WTF                # Formulários e proteção CSRF
+Flask-Login              # Autenticação de usuários
+Flask-Bcrypt             # Hash de senhas
+Flask-JWT-Extended       # Autenticação com JWT
+Flask-Cors               # Controle de CORS para APIs
+Flask-RESTful            # Facilita a criação de APIs REST
+Flask-Marshmallow        # Serialização e validação de dados
+
+# ===== Banco de Dados =====
+SQLAlchemy               # ORM geral para SQL
+psycopg2-binary          # Driver PostgreSQL
+PyMySQL                  # Driver MySQL/MariaDB
+redis                     # Cache e armazenamento temporário
+
+# ===== Segurança =====
+python-dotenv            # Gerenciar variáveis de ambiente
+bcrypt                   # Criptografia de senhas
+itsdangerous             # Segurança para tokens, assinaturas
+PyJWT                    # JWT (alternativa ao Flask-JWT-Extended)
+
+# ===== Testes =====
+pytest                   # Framework de testes
+pytest-flask             # Integração pytest com Flask
+pytest-cov               # Cobertura de testes
+
+# ===== Utilitários =====
+requests                 # Consumir APIs externas
+httpx                     # Alternativa assíncrona para requests
+marshmallow              # Serialização e validação de dados
+pydantic                 # Validação de dados (opcional, mais moderno)
+python-dateutil          # Manipulação avançada de datas
+
+# ===== Produtividade =====
+black                    # Formatação automática de código
+isort                    # Organizar imports
+flake8                   # Linter de código
+mypy                     # Checagem de tipos estática
+ipython                  # Terminal interativo avançado
+python-dotenv            # Carregar variáveis de ambiente de arquivos .env
+
+# ===== Asynchronous / Optional =====
+aiohttp                  # Servidor HTTP assíncrono / cliente
+celery                   # Tarefas assíncronas / fila de tarefas
+redis                    # Backend para Celery
